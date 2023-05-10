@@ -37,7 +37,7 @@ def answer(text):
         return None, 0
 
 # Put your Telegram token here
-bot = telebot.TeleBot('1398632604:AAEa6JMhMeiwFqHezwvXLlr4Z1JYzaajTh4')
+bot = telebot.TeleBot('Token')
 
 # First command
 @bot.message_handler(commands=["start"])
